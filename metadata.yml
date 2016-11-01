@@ -1,0 +1,5 @@
+name: iocore
+type: collector
+maintainer: core
+license: Apache-2.0
+description: "Collects I/O core metrics from /sys/class/vhost."
