@@ -35,6 +35,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"math"
 
 	log "github.com/Sirupsen/logrus"
 
@@ -309,6 +310,7 @@ func (dc *IOCoreCollector) calcDerivatives() error {
 		}
 
 		util := 100.0 * float64(data[nTotalWorkCycles]) / float64(data[nTotalCycles])
+		util = math.Max(0, math.Min(100, util))
 		dc.output[iocore+"/"+nCpuUtilization] = float64(int(util * 10)) / 10.0
 	}
 
