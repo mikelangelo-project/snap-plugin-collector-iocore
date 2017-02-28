@@ -142,3 +142,10 @@ $ snapctl task stop 480323af-15b0-4af8-a526-eb2ca6d8ae67
 Task stopped:
 ID: 480323af-15b0-4af8-a526-eb2ca6d8ae67
 ```
+
+## Acknowledgements
+
+This project has been conducted within the RIA [MIKELANGELO 
+project](https://www.mikelangelo-project.eu) (no.  645402), started in January
+2015, and co-funded by the European Commission under the H2020-ICT- 07-2014:
+Advanced Cloud Infrastructures and Services programme.
